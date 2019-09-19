@@ -7,18 +7,25 @@
   <title>{{title}}</title>
   <style>
     p {
-      margin: 0 5px 10px;
+      height: 32px;
+      line-height: 32px;
+      padding: 0 5px;
+      margin: 0;
       overflow: hidden;
+      background-color: #dec9c9;
     }
+     p:nth-child(even) {
+      background-color: #fff;
+     }
     .list {
       display: block;
       float: left;
     }
     span.list {
-      width: 15%;
+      width: 25%;
     }
     a.list {
-      width: 85%;
+      width: 75%;
     }
   </style>
 </head>
